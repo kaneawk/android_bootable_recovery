@@ -661,7 +661,7 @@
 		<string name="auto_gen">(Auto Generate)</string>
 		<string name="curr_date">(Current Date)</string>
 		<string name="backup_name_len">备份名称太长。</string>
-		<string name="backup_name_invalid">备份名称'{1}'中中包含无效字符：'{1}'</string>
+		<string name="backup_name_invalid">备份名称'{1}'中包含无效字符：'{1}'</string>
 		<string name="backup_name_exists">此备份文件名已存在。</string>
 		<string name="no_real_sdcard">此设备没有真实的SD卡！正在中止！</string>
 		<string name="cancel_sideload">取消ADB sideload…</string>
