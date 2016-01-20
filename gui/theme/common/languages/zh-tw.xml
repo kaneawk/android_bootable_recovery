@@ -567,7 +567,7 @@
 		<!-- {1} is the folder name that we could not mount, {2} is strerror output -->
 		<string name="fail_mount">掛載'{1}'失敗 ({2})</string>
 		<!-- {1} is the folder name that we could not unmount, {2} is strerror output -->
-		<string name="fail_mount">卸載'{1}'失敗 ({2})</string>
+		<string name="fail_unmount">卸載'{1}'失敗 ({2})</string>
 		<string name="cannot_resize">無法更改{1}大小。</string>
 		<string name="repair_resize">在調整大小之前修復{1}。</string>
 		<string name="unable_resize">無法調整{1}大小。</string>
