@@ -254,8 +254,8 @@
 		<string name="mount_sys_ro_chk">挂载系统为只读</string>
 		<string name="mount_sys_ro_s_chk">挂载System分区为只读</string>
 		<string name="decrypt_data_btn">解密Data分区</string>
-		<string name="disable_mtp_btn">启用 MTP 模式</string>
-		<string name="enable_mtp_btn">停用 MTP 模式</string>
+		<string name="disable_mtp_btn">停用 MTP 模式</string>
+		<string name="enable_mtp_btn">启用 MTP 模式</string>
 		<string name="mount_usb_storage_btn">挂载USB存储</string>
 		<string name="usb_storage_hdr">USB存储</string>
 		<string name="usb_stor_mnt1">已挂载 USB 存储</string>
