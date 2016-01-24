@@ -111,6 +111,7 @@
 		<string name="no_osrb">您確定要重啟？</string>
 		<string name="no_ospo">您確定要關機？</string>
 		<string name="rebooting">正在重啟…</string>
+		<string name="swipe_reboot">滑動按鈕確認重啟</string>
 		<string name="swipe_reboot_s">   重啟</string>
 		<string name="swipe_flash">滑動按鈕確認刷入</string>
 		<string name="confirm_action">確認操作</string>
@@ -148,6 +149,7 @@
 		<string name="format_data_wtc2">備份和媒體數據，無法撤銷。</string>
 		<string name="format_data_undo">執行此操作後將無法恢復。</string>
 		<string name="format_data_complete">格式化Data分區完成</string>
+		<!-- Translator note: the word "yes" must remain English! -->
 		<string name="yes_continue">輸入 yes 繼續，按返回按鈕取消。</string>
 		<string name="part_opt_hdr">分區名：%tw_partition_name%</string>
 		<string name="sel_act_hdr">選擇操作</string>
@@ -356,6 +358,7 @@
 		<string name="kb_vibration">鍵盤振動強度：</string>
 		<string name="act_vibration">操作振動強度：</string>
 		<string name="select_language">選擇語言：</string>
+		<string name="sel_lang_btn">選擇語言</string>
 		<string name="set_language_btn">設置語言</string>
 		<string name="advanced_hdr">高級選項</string>
 		<string name="copy_log_confirm">是否導出日誌到內置存儲？</string>
@@ -432,7 +435,7 @@
 		<string name="fm_perms">許可權：</string>
 		<string name="fm_complete">操作完成。</string>
 		<string name="decrypt_data_hdr">解密Data分區</string>
-		<string name="decrypt_data_enter_pass"></string>
+		<string name="decrypt_data_enter_pass">請輸入密碼。</string>
 		<string name="decryt_data_failed">密碼錯誤，請重試！</string>
 		<string name="decryt_data_failed_pattern">圖案錯誤，請重試！</string>
 		<string name="decrypt_data_enter_pattern">繪製解鎖圖案</string>
