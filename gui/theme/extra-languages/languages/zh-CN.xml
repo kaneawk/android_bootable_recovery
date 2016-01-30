@@ -77,10 +77,10 @@
 		<string name="zip_warn1">此操作可能会刷入不兼容的固件，</string>
 		<string name="zip_warn2">致使您的设备变砖。</string>
 		<string name="zip_back_cancel">按返回按钮取消添加此Zip包。</string>
-		<string name="zip_back_clear">按返回按钮清除Zip刷入队列。</string>
-		<string name="folder">目录:</string>
-		<string name="file">文件:</string>
-		<string name="zip_sig_chk">Zip刷机包签名校验</string>
+		<string name="zip_back_clear">按返回按钮清除Zip包刷入队列。</string>
+		<string name="folder">目录：</string>
+		<string name="file">文件：</string>
+		<string name="zip_sig_chk">Zip包签名校验</string>
 		<string name="inject_twrp_chk">安装完成后注入TWRP</string>
 		<string name="options_hdr">选项</string>
 		<string name="confirm_flash_hdr">确认刷入</string>
@@ -120,7 +120,7 @@
 		<string name="wipe_hdr">清除</string>
 		<string name="factory_reset_hdr">恢复出厂设置(双清)</string>
 		<string name="factory_reset_btn">恢复出厂</string>
-		<string name="factory_reset1">这将会清空Data、Cache分区和Dalvik缓存</string>
+		<string name="factory_reset1">这将会清空Data，Cache分区和Dalvik缓存</string>
 		<string name="factory_reset2">(不会清除内置存储/sdcard)</string>
 		<string name="factory_reset3">在大多数情况下，您只需要</string>
 		<string name="factory_reset4">执行此操作即可。</string>
@@ -143,6 +143,7 @@
 		<string name="format_data_ptr1">格式化 Data 分区将会清空您安装的所有</string>
 		<string name="format_data_ptr2">软件、图片、视频媒体、短信和通话记录</string>
 		<string name="format_data_ptr3">以及对内置存储所做的加密等。</string>
+		<string name="format_data_adopted">也包括Adopted Storage</string>
 		<string name="format_data_lcp1">格式化 Data 分区将会清空您安装的所有软件、图片、视频媒体、短信和通话记录</string>
 		<string name="format_data_lcp2">以及对内置存储所做的加密等。</string>
 		<string name="format_data_wtc1">格式化Data分区会清除您的所有软件</string>
@@ -365,7 +366,7 @@
 		<string name="copying_log">正在导出…</string>
 		<string name="copy_log_complete">日志导出完成。</string>
 		<string name="fix_context_btn">修复上下文</string>
-		<string name="part_sd_btn">分区SD卡</string>
+		<string name="part_sd_btn">SD卡分区</string>
 		<string name="part_sd_s_btn">SD卡</string>
 		<string name="file_manager_btn">文件管理</string>
 		<string name="language_hdr">语言设置</string>
@@ -398,7 +399,7 @@
 		<string name="dumlock_restore_complete">恢复原版Boot镜像完成。</string>
 		<string name="dumlock_reflash_btn">重新刷入Recovery</string>
 		<string name="dumlock_reflash_confirm">是否重新刷入Recovery至boot分区？</string>
-		<string name="dumlock_reflashing">正在刷入recovery至boot分区…</string>
+		<string name="dumlock_reflashing">正在刷入Recovery至boot分区…</string>
 		<string name="dumlock_reflash_complete">Recovery刷入完成。</string>
 		<string name="dumlock_install_btn">安装HTC Dumlock</string>
 		<string name="dumlock_install_confirm">是否安装HTC dumlock文件到系统中？</string>
@@ -452,13 +453,13 @@
 		<string name="sideload_usage">使用方式：电脑CMD输入adb sideload xxxx(刷机包名).zip</string>
 		<string name="sideload_complete">ADB Sideload完成。</string>
 		<string name="fix_contexts_hdr">修复上下文</string>
-		<string name="fix_contexts_note1">注: 很少情况下需要修复SELinux上下文。</string>
+		<string name="fix_contexts_note1">注意：很少情况下需要修复SELinux上下文。</string>
 		<string name="fix_contexts_note2">修复SELinux上下文可能会导致</string>
 		<string name="fix_contexts_note3">您的设备无法正常启动。</string>
 		<string name="swipe_to_fix_contexts">滑动按钮确认修复</string>
 		<string name="swipe_fix_contexts">   修复上下文</string>
 		<string name="fixing_contexts">正在修复…</string>
-		<string name="fix_contexts_complete">修复SELinux Contexts完成。</string>
+		<string name="fix_contexts_complete">修复SELinux上下文完成。</string>
 		<string name="reboot_hdr">重启选项</string>
 		<string name="su_hdr">SuperSU检测</string>
 		<string name="su_note1">系统目前没有Root。</string>
@@ -472,12 +473,12 @@
 		<string name="ok_btn">确定</string>
 
 		<!-- Various console messages - these consist of user displayed messages, oftentimes errors -->
-		<string name="no_kernel_selinux">内核不支持读取SELinux contexts。</string>
+		<string name="no_kernel_selinux">内核不支持读取SELinux上下文。</string>
 		<string name="full_selinux">完整SELinux支持。</string>
 		<string name="no_selinux">无SELinux支持(无libselinux)。</string>
 		<string name="mtp_enabled">MTP已启用</string>
 		<string name="mtp_crash">MTP已崩溃。启动时不再加载MTP。</string>
-		<string name="decrypt_success">已使用默认密码解密成功。</string>
+		<string name="decrypt_success_dev">已使用默认密码解密成功。</string>
 		<string name="unable_to_decrypt">无法使用默认密码来解密，你可能需要格式化Data分区。</string>
 		<string name="generating_md51">正在生成MD5</string>
 		<!-- Message displayed during a backup if we are generating an MD5, ideally, leave the leading " * " to help align and separate this text from other console text -->
@@ -526,7 +527,7 @@
 		<string name="dalvik_done">-- Dalvik Cache清除完成！</string>
 		<string name="no_andsec">未发现android secure分区。</string>
 		<string name="unable_to_locate">未找到{1}。</string>
-		<string name="wiping_datamedia">清除内置储存 -- /data/media…</string>
+		<string name="wiping_datamedia">清除内置存储 -- /data/media…</string>
 		<string name="unable_to_mount">无法挂载 {1}</string>
 		<string name="unable_to_mount_internal">无法挂载内置存储</string>
 		<string name="unable_to_mount_storage">无法挂载存储</string>
@@ -568,7 +569,7 @@
 		<string name="cannot_resize">无法更改{1}大小。</string>
 		<string name="repair_resize">在调整大小之前修复{1}。</string>
 		<string name="unable_resize">无法调整{1}大小。</string>
-		<string name="no_md5_found">未找到'{1}'MD5校验文件，请取消启用MD5验证备份文件选项。</string>
+		<string name="no_md5_found">未找到'{1}'MD5校验文件，请取消“启用MD5验证备份文件”选项。</string>
 		<string name="md5_fail_match">'{1}'MD5校验失败。</string>
 		<string name="fail_decrypt_tar">无法解密tar文件：'{1}'</string>
 		<string name="format_data_msg">您可能需要重启recovery才能使用/data。</string>
@@ -613,7 +614,7 @@
 		<string name="compression_on">压缩选项已开启</string>
 		<string name="md5_off">MD5生成已关闭</string>
 		<string name="backup_fail">备份失败</string>
-		<string name="backup_complete">备份完成！</string>
+		<string name="backup_clean">备份失败，正在清理备份文件夹。</string>
 		<string name="running_recovery_commands">运行Recovery命令</string>
 		<string name="recovery_commands_complete">Recovery命令执行完成。</string>
 		<string name="running_ors">运行OpenRecoveryScript脚本</string>
@@ -625,7 +626,7 @@
 		<string name="verify_zip_fail">刷机包签名校验失败！</string>
 		<string name="verify_zip_done">刷机包签名校验成功。</string>
 		<string name="zip_corrupt">刷机包已损坏！</string>
-		<string name="no_md5">跳过MD5校验：无法找到MD5文件</string>
+		<string name="no_md5">跳过MD5校验：无法找到MD5文件。</string>
 		<string name="md5_fail">MD5不匹配</string>
 		<string name="md5_match">MD5验证成功</string>
 		<string name="pid_signal">{1}过程结束，标志：{2}</string>
