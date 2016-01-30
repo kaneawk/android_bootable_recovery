@@ -9,7 +9,7 @@
 		<resource name="font_m" type="fontoverride" filename="DroidSansFallback.ttf" scale="100" />
 		<resource name="font_s" type="fontoverride" filename="DroidSansFallback.ttf" scale="100" />
 		<resource name="fixed" type="fontoverride" filename="DroidSansFallback.ttf" scale="100" />
-		
+
 		<!-- Partition display names -->
 		<string name="system">System</string>
 		<string name="system_image">System镜像</string>
@@ -28,7 +28,7 @@
 		<!-- This is a rarely used partition on a Micro SD card for a very old app2sd system -->
 		<string name="sdext">SD-EXT</string>
 		<string name="adopted_data">Adopted Data</string>
-		<string name="adopted_storage">Adopted Storage</string>
+		<string name="adopted_storage">Adopted存储</string>
 
 		<!-- GUI XML strings -->
 		<string name="twrp_header">Team Win Recovery Project</string>
@@ -80,7 +80,7 @@
 		<string name="zip_back_clear">按返回按钮清除Zip包刷入队列。</string>
 		<string name="folder">目录：</string>
 		<string name="file">文件：</string>
-		<string name="zip_sig_chk">Zip包签名校验</string>
+		<string name="zip_sig_chk">Zip刷机包签名校验</string>
 		<string name="inject_twrp_chk">安装完成后注入TWRP</string>
 		<string name="options_hdr">选项</string>
 		<string name="confirm_flash_hdr">确认刷入</string>
@@ -140,18 +140,18 @@
 		<string name="invalid_part_sel">无效的分区</string>
 		<string name="format_data_hdr">格式化Data分区</string>
 		<string name="format_data_btn">格式化Data分区</string>
-		<string name="format_data_ptr1">格式化 Data 分区将会清空您安装的所有</string>
+		<string name="format_data_ptr1">格式化Data分区将会清空您安装的所有</string>
 		<string name="format_data_ptr2">软件、图片、视频媒体、短信和通话记录</string>
 		<string name="format_data_ptr3">以及对内置存储所做的加密等。</string>
-		<string name="format_data_adopted">也包括Adopted Storage</string>
-		<string name="format_data_lcp1">格式化 Data 分区将会清空您安装的所有软件、图片、视频媒体、短信和通话记录</string>
+		<string name="format_data_adopted">也包括Adopted存储</string>
+		<string name="format_data_lcp1">格式化Data分区将会清空您安装的所有软件、图片、视频媒体、短信和通话记录</string>
 		<string name="format_data_lcp2">以及对内置存储所做的加密等。</string>
 		<string name="format_data_wtc1">格式化Data分区会清除您的所有软件</string>
 		<string name="format_data_wtc2">备份和媒体数据，无法撤销。</string>
 		<string name="format_data_undo">执行此操作后将无法恢复。</string>
 		<string name="format_data_complete">格式化Data分区完成</string>
 		<!-- Translator note: the word "yes" must remain English! -->
-		<string name="yes_continue">输入 yes 继续，按返回按钮取消。</string>
+		<string name="yes_continue">输入yes继续，按返回按钮取消。</string>
 		<string name="part_opt_hdr">分区名：%tw_partition_name%</string>
 		<string name="sel_act_hdr">选择操作</string>
 		<string name="file_sys_opt">文件系统选项</string>
@@ -206,7 +206,7 @@
 		<string name="enc_disabled">已禁用 - 设置密码以启用</string>
 		<string name="enc_enabled">已启用</string>
 		<string name="enable_backup_comp_chk">启用压缩</string>
-		<string name="skip_md5_backup_chk">当备份时跳过生成MD5文件</string>
+		<string name="skip_md5_backup_chk">备份时跳过生成MD5文件</string>
 		<string name="disable_backup_space_chk">禁用剩余空间检查</string>
 		<string name="refresh_sizes_btn">刷新大小</string>
 		<string name="swipe_backup">滑动按钮确认备份</string>
@@ -239,7 +239,7 @@
 		<string name="restore_try_decrypt_s">正在尝试解密</string>
 		<string name="restore_backup_date">备份于：%tw_restore_file_date%</string>
 		<string name="restore_sel_part">选择要恢复的分区：</string>
-		<string name="restore_enable_md5_chk">启用MD5验证备份文件</string>
+		<string name="restore_enable_md5_chk">启用MD5校验备份文件</string>
 		<string name="restore_complete">恢复完成。</string>
 		<string name="swipe_restore">滑动按钮确认恢复</string>
 		<string name="swipe_restore_s">   恢复</string>
@@ -253,16 +253,16 @@
 		<string name="confirm_hdr">确认</string>
 		<string name="mount_hdr">挂载</string>
 		<string name="mount_sel_part">选择要挂载的分区：</string>
-		<string name="mount_sys_ro_chk">挂载系统为只读</string>
-		<string name="mount_sys_ro_s_chk">挂载System分区为只读</string>
+		<string name="mount_sys_ro_chk">挂载系统分区为只读</string>
+		<string name="mount_sys_ro_s_chk">挂载系统分区为只读</string>
 		<string name="decrypt_data_btn">解密Data分区</string>
-		<string name="disable_mtp_btn">停用 MTP 模式</string>
-		<string name="enable_mtp_btn">启用 MTP 模式</string>
+		<string name="disable_mtp_btn">停用MTP模式</string>
+		<string name="enable_mtp_btn">启用MTP模式</string>
 		<string name="mount_usb_storage_btn">挂载USB存储</string>
 		<string name="usb_storage_hdr">USB存储</string>
 		<string name="usb_stor_mnt1">已挂载 USB 存储</string>
-		<string name="usb_stor_mnt2">请确认解除挂载前先从</string>
-		<string name="usb_stor_mnt3">电脑上安全的移除设备！</string>
+		<string name="usb_stor_mnt2">从您的电脑卸载之前</string>
+		<string name="usb_stor_mnt3">一定要安全地移除设备！</string>
 		<string name="unmount_btn">卸载</string>
 		<string name="rb_system_btn">系统</string>
 		<string name="rb_poweroff_btn">关机</string>
@@ -272,30 +272,30 @@
 		<string name="turning_off">正在关机…</string>
 		<string name="swipe_power_off">滑动按钮确认关机</string>
 		<string name="swipe_power_off_s">关机</string>
-		<string name="sys_ro_hdr">未修改的System分区</string>
+		<string name="sys_ro_hdr">未修改的系统分区</string>
 		<string name="sys_ro_keep">是否保持系统分区为只读？</string>
 		<string name="sys_rop1">TWRP可以保持系统分区未修改状态</string>
 		<string name="sys_rop2">使您更容易获得官方的更新。</string>
-		<string name="sys_rop3">TWRP将无法禁止原版固件可能</string>
-		<string name="sys_rop4">替换TWRP并且不能Root您的设备。</string>
+		<string name="sys_rop3">TWRP将无法禁止系统替换TWRP</string>
+		<string name="sys_rop4">并且不能Root您的设备。</string>
 		<string name="sys_rop5">安装刷机包或者通过adb操作依然可以</string>
 		<string name="sys_rop6">修改系统分区。</string>
 		<string name="sys_rol1">TWRP可以保持系统分区为未修改状态，使您更容易获得官方的更新。</string>
-		<string name="sys_rol2">TWRP将无法禁止原版固件替换TWRP，并且不能Root您的设备。</string>
+		<string name="sys_rol2">TWRP将无法禁止系统替换TWRP，并且不能Root您的设备。</string>
 		<string name="sys_rol3">安装刷机包或者通过adb操作依然可以修改系统分区。</string>
 		<string name="sys_ro_never_show_chk">下次启动时不再显示此界面</string>
 		<string name="sys_ro_keep_ro_btn">保持只读</string>
 		<string name="swipe_allow_mod">滑动按钮允许修改</string>
 		<string name="swipe_allow_mod_s">允许修改</string>
 		<string name="settings_hdr">设置</string>
-		<string name="settings_gen_hdr">常规设置</string>
-		<string name="settings_gen_s_hdr">常规设置</string>
+		<string name="settings_gen_hdr">常规</string>
+		<string name="settings_gen_s_hdr">常规</string>
 		<string name="settings_gen_btn">常规</string>
 		<string name="use_rmrf_chk">使用rm -rf命令代替格式化</string>
 		<string name="use24clock_chk">使用24小时格式</string>
 		<string name="rev_navbar_chk">反转底部按钮布局</string>
 		<string name="simact_chk">为测试主题使用模拟操作</string>
-		<string name="simfail_chk">模拟失败操作</string>
+		<string name="simfail_chk">模拟失败的操作</string>
 		<string name="ctr_navbar_rdo">导航栏按钮居中</string>
 		<string name="lft_navbar_rdo">导航栏按钮左对齐</string>
 		<string name="rht_navbar_rdo">导航栏按钮右对齐</string>
@@ -305,7 +305,7 @@
 		<string name="settings_screen_bright_btn">屏幕亮度</string>
 		<string name="settings_vibration_btn">振动</string>
 		<string name="settings_language_btn">语言</string>
-		<string name="time_zone_hdr">时区设置</string>
+		<string name="time_zone_hdr">时区</string>
 		<string name="sel_tz_list">选择时区：</string>
 		<!-- Translator note: if it does not make sense to translate the locations or if it makes more sense,
 				feel free to change the location listed or drop the location entirely and just call it UTC -6 -->
@@ -343,7 +343,7 @@
 		<string name="curr_tz">当前时区：%tw_time_zone%</string>
 		<string name="curr_tz_s">当前时区：</string>
 		<string name="set_tz_btn">设置时区</string>
-		<string name="settings_screen_hdr">屏幕设置</string>
+		<string name="settings_screen_hdr">屏幕</string>
 		<string name="settings_screen_timeout_hdr">屏幕超时</string>
 		<string name="enable_timeout_chk">启用屏幕超时</string>
 		<string name="screen_to_slider">屏幕超时时间(秒)：</string>
@@ -351,7 +351,7 @@
 		<string name="screen_to_na">屏幕超时设置不可用</string>
 		<string name="screen_bright_slider">屏幕亮度：%tw_brightness_pct%%</string>
 		<string name="screen_bright_na">屏幕亮度设置不可用</string>
-		<string name="vibration_hdr">振动设置</string>
+		<string name="vibration_hdr">振动</string>
 		<string name="button_vibration_hdr">按钮振动</string>
 		<string name="kb_vibration_hdr">键盘振动</string>
 		<string name="act_vibration_hdr">操作振动</string>
@@ -369,7 +369,7 @@
 		<string name="part_sd_btn">SD卡分区</string>
 		<string name="part_sd_s_btn">SD卡</string>
 		<string name="file_manager_btn">文件管理</string>
-		<string name="language_hdr">语言设置</string>
+		<string name="language_hdr">语言</string>
 		<string name="terminal_btn">终端命令</string>
 		<string name="reload_theme_btn">重载主题</string>
 		<string name="dumlock_btn">HTC Dumlock</string>
@@ -378,7 +378,7 @@
 		<string name="injecting_twrp">正在重新注入TWRP…</string>
 		<string name="inject_twrp_complete">TWRP注入完成。</string>
 		<string name="swipe_to_confirm">滑动按钮确认</string>
-		<string name="part_sd_hdr">对SD卡分区</string>
+		<string name="part_sd_hdr">SD卡分区</string>
 		<string name="invalid_partsd_sel">您必须选择一个可移动设备</string>
 		<string name="part_sd_lose">您将会丢失SD卡上的所有文件！</string>
 		<string name="part_sd_undo">此操作无法恢复！</string>
@@ -390,7 +390,7 @@
 		<string name="swipe_part_sd">滑动按钮确认分区</string>
 		<string name="swipe_part_sd_s">分区</string>
 		<string name="partitioning_sd">正在对SD卡分区…</string>
-		<string name="partitioning_sd2">这将需要一段的时间。</string>
+		<string name="partitioning_sd2">这将需要几分钟的时间。</string>
 		<string name="part_sd_complete">分区完成。</string>
 		<string name="dumlock_hdr">HTC Dumlock</string>
 		<string name="dumlock_restore_btn">恢复原版Boot镜像</string>
@@ -428,8 +428,8 @@
 		<string name="fm_rename_file_btn">重命名文件</string>
 		<string name="fm_rename_folder_btn">重命名文件夹</string>
 		<string name="fm_renaming">正在重命名</string>
-		<string name="fm_sel_dest">选择目标文件夹</string>
-		<string name="fm_sel_curr_folder">选择当前文件夹</string>
+		<string name="fm_sel_dest">选择目标目录</string>
+		<string name="fm_sel_curr_folder">选择当前目录</string>
 		<string name="fm_rename_hdr">重命名</string>
 		<string name="fm_set_perms_hdr">设置权限</string>
 		<string name="fm_perms">权限：</string>
@@ -443,7 +443,7 @@
 		<string name="term_hdr">终端命令</string>
 		<string name="term_s_hdr">终端命令</string>
 		<string name="term_kill_btn">终止命令</string>
-		<string name="term_sel_folder_hdr">选择运行文件夹</string>
+		<string name="term_sel_folder_hdr">选择运行目录</string>
 		<string name="adb_sideload_hdr">ADB Sideload</string>
 		<string name="sideload_wipe_dalvik_chk">清除Dalvik Cache</string>
 		<string name="sideload_wipe_cache_chk">清除Cache</string>
@@ -477,7 +477,7 @@
 		<string name="full_selinux">完整SELinux支持。</string>
 		<string name="no_selinux">无SELinux支持(无libselinux)。</string>
 		<string name="mtp_enabled">MTP已启用</string>
-		<string name="mtp_crash">MTP已崩溃。启动时不再加载MTP。</string>
+		<string name="mtp_crash">MTP已崩溃。启动时不再启用MTP。</string>
 		<string name="decrypt_success_dev">已使用默认密码解密成功。</string>
 		<string name="unable_to_decrypt">无法使用默认密码来解密，你可能需要格式化Data分区。</string>
 		<string name="generating_md51">正在生成MD5</string>
@@ -502,15 +502,15 @@
 		<string name="avg_backup_img">镜像平均备份速度：{1}MB/秒</string>
 		<string name="total_backed_size">[总计备份 {1}MB]</string>
 		<string name="backup_completed">[备份已完成，耗时{1}秒。]</string>
-		<string name="restore_started">[已开始还原]</string>
+		<string name="restore_started">[已开始恢复]</string>
 		<string name="restore_folder">恢复文件夹：'{1}'</string>
 		<!-- {1} is the partition display name and {2} is the number of seconds -->
 		<string name="restort_part_done">[{1}恢复完成({2}秒)]</string>
-		<string name="verifying_md5">正在验证MD5</string>
+		<string name="verifying_md5">正在校验MD5</string>
 		<string name="skip_md5">基于用户设置，已跳过MD5检查。</string>
 		<string name="calc_restore">正在计算恢复详情…</string>
 		<string name="restore_read_only">无法恢复{1} -- 已挂载为只读。</string>
-		<string name="restore_unable_locate">无法找到'{1}'分区。</string>
+		<string name="restore_unable_locate">未找到'{1}'分区。</string>
 		<string name="no_part_restore">未选择要恢复的分区。</string>
 		<string name="restore_part_count">正在恢复{1}个分区…</string>
 		<string name="total_restore_size">恢复文件总计{1}MB</string>
@@ -536,7 +536,7 @@
 		<string name="decrypt_success">Data分区成功解密，新增块设备：'{1}'</string>
 		<string name="done">完成。</string>
 		<string name="start_partition_sd">正在给SD卡分区…</string>
-		<string name="partition_sd_locate">无法找到设备进行分区。</string>
+		<string name="partition_sd_locate">未找到需要分区的设备。</string>
 		<string name="ext_swap_size">EXT+Swap大小超过SD卡容量。</string>
 		<string name="remove_part_table">正在删除分区表…</string>
 		<string name="unable_rm_part">无法删除分区表。</string>
@@ -549,7 +549,7 @@
 		<string name="mtp_fail">启用MTP失败</string>
 		<string name="no_mtp">不支持MTP</string>
 		<string name="image_flash_start">[开始刷入镜像]</string>
-		<string name="img_to_flash">正在刷入镜像：'{1}'</string>
+		<string name="img_to_flash">刷入镜像：'{1}'</string>
 		<string name="flash_unable_locate">未找到'{1}'分区。</string>
 		<string name="no_part_flash">未选择刷入分区。</string>
 		<string name="too_many_flash">选择刷入的分区太多。</string>
@@ -569,7 +569,7 @@
 		<string name="cannot_resize">无法更改{1}大小。</string>
 		<string name="repair_resize">在调整大小之前修复{1}。</string>
 		<string name="unable_resize">无法调整{1}大小。</string>
-		<string name="no_md5_found">未找到'{1}'MD5校验文件，请取消“启用MD5验证备份文件”选项。</string>
+		<string name="no_md5_found">未找到'{1}'MD5校验文件，请取消“启用MD5校验备份文件”选项。</string>
 		<string name="md5_fail_match">'{1}'MD5校验失败。</string>
 		<string name="fail_decrypt_tar">无法解密tar文件：'{1}'</string>
 		<string name="format_data_msg">您可能需要重启recovery才能使用/data。</string>
@@ -591,7 +591,7 @@
 		<string name="backup_folder_set">备份文件夹设置为：'{1}'</string>
 		<string name="locate_backup_err">未找到备份文件'{1}'</string>
 		<string name="set_restore_opt">设置恢复选项：'{1}'：</string>
-		<string name="md5_check_skip">校验MD5已开启</string>
+		<string name="md5_check_skip">跳过校验MD5已开启</string>
 		<string name="ors_encrypt_restore_err">无法使用OpenRecoveryScript脚本恢复加密备份。</string>
 		<string name="mounting">正在挂载</string>
 		<string name="unmounting">正在卸载</string>
@@ -626,9 +626,9 @@
 		<string name="verify_zip_fail">刷机包签名校验失败！</string>
 		<string name="verify_zip_done">刷机包签名校验成功。</string>
 		<string name="zip_corrupt">刷机包已损坏！</string>
-		<string name="no_md5">跳过MD5校验：无法找到MD5文件。</string>
+		<string name="no_md5">跳过MD5校验：未找到MD5文件。</string>
 		<string name="md5_fail">MD5不匹配</string>
-		<string name="md5_match">MD5验证成功</string>
+		<string name="md5_match">MD5校验成功</string>
 		<string name="pid_signal">{1}过程结束，标志：{2}</string>
 		<string name="pid_error">{1}过程结束，错误：{2}</string>
 		<string name="install_dumlock">安装HTC Dumlock到系统…</string>
