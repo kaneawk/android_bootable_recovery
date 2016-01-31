@@ -89,7 +89,7 @@
 		<string name="swipe_confirm">   确认</string>
 		<string name="zip_add_btn">添加更多刷机包</string>
 		<string name="zip_clear_btn">清除刷机队列</string>
-		<string name="install_zip_count_hdr">正在刷入第%tw_zip_queue_count%个，共%tw_zip_index%个刷机包</string>
+		<string name="install_zip_count_hdr">正在刷入第%tw_zip_index%个，共%tw_zip_queue_count%个</string>
 		<string name="installing_zip_xml">正在安装: %tw_file%</string>
 		<string name="failed">失败</string>
 		<string name="successful">成功</string>
@@ -141,10 +141,10 @@
 		<string name="format_data_hdr">格式化Data分区</string>
 		<string name="format_data_btn">格式化Data分区</string>
 		<string name="format_data_ptr1">格式化Data分区将会清空您安装的所有</string>
-		<string name="format_data_ptr2">软件、图片、视频媒体、短信和通话记录</string>
+		<string name="format_data_ptr2">软件、备份、图片、视频、媒体，</string>
 		<string name="format_data_ptr3">以及对内置存储所做的加密等。</string>
 		<string name="format_data_adopted">也包括Adopted存储</string>
-		<string name="format_data_lcp1">格式化Data分区将会清空您安装的所有软件、图片、视频媒体、短信和通话记录</string>
+		<string name="format_data_lcp1">格式化Data分区将会清空您安装的所有软件、备份、图片、视频、媒体，</string>
 		<string name="format_data_lcp2">以及对内置存储所做的加密等。</string>
 		<string name="format_data_wtc1">格式化Data分区会清除您的所有软件</string>
 		<string name="format_data_wtc2">备份和媒体数据，无法撤销。</string>
@@ -478,7 +478,7 @@
 		<string name="no_selinux">无SELinux支持(无libselinux)。</string>
 		<string name="mtp_enabled">MTP已启用</string>
 		<string name="mtp_crash">MTP已崩溃。启动时不再启用MTP。</string>
-		<string name="decrypt_success_dev">已使用默认密码解密成功。</string>
+		<string name="decrypt_success">已使用默认密码解密成功。</string>
 		<string name="unable_to_decrypt">无法使用默认密码来解密，你可能需要格式化Data分区。</string>
 		<string name="generating_md51">正在生成MD5</string>
 		<!-- Message displayed during a backup if we are generating an MD5, ideally, leave the leading " * " to help align and separate this text from other console text -->
@@ -515,7 +515,7 @@
 		<string name="restore_part_count">正在恢复{1}个分区…</string>
 		<string name="total_restore_size">恢复文件总计{1}MB</string>
 		<string name="updating_system_details">更新系统详细信息</string>
-		<string name="restore_completed">[恢复完成，耗时{1}秒。]</string>
+		<string name="restore_completed">[恢复已完成，耗时{1}秒。]</string>
 		<!-- {1} is the path we could not open, {2} is strerror output -->
 		<string name="error_opening_strerr">打开出错：'{1}' ({2})</string>
 		<string name="unable_locate_part_backup_name">无法通过备份名称来查找分区：'{1}'</string>
@@ -533,7 +533,7 @@
 		<string name="unable_to_mount_storage">无法挂载存储</string>
 		<string name="fail_decrypt">解密数据失败。</string>
 		<string name="no_crypto_support">此版本不支持加密。</string>
-		<string name="decrypt_success">Data分区成功解密，新增块设备：'{1}'</string>
+		<string name="decrypt_success_dev">Data分区成功解密，新增块设备：'{1}'</string>
 		<string name="done">完成。</string>
 		<string name="start_partition_sd">正在给SD卡分区…</string>
 		<string name="partition_sd_locate">未找到需要分区的设备。</string>
@@ -570,7 +570,7 @@
 		<string name="repair_resize">在调整大小之前修复{1}。</string>
 		<string name="unable_resize">无法调整{1}大小。</string>
 		<string name="no_md5_found">未找到'{1}'MD5校验文件，请取消“启用MD5校验备份文件”选项。</string>
-		<string name="md5_fail_match">'{1}'MD5校验失败。</string>
+		<string name="md5_fail_match">'{1}' MD5校验失败。</string>
 		<string name="fail_decrypt_tar">无法解密tar文件：'{1}'</string>
 		<string name="format_data_msg">您可能需要重启recovery才能使用/data。</string>
 		<string name="format_data_err">无法格式化并删除加密。</string>
@@ -664,7 +664,6 @@
 		<string name="no_real_sdcard">此设备没有真实的SD卡！正在中止！</string>
 		<string name="cancel_sideload">取消ADB sideload…</string>
 		<string name="change_fs_err">更换文件系统出错。</string>
-		<string name="swipe_reboot">滑动按钮确认重启</string>
 		<string name="recovery_replace_hdr">禁止恢复原版Recovery</string>
 		<string name="recovery_replace_note1">禁止系统启动时恢复原版Recovery。</string>
 		<string name="recovery_replace_note2">是否立即禁止恢复原版Recovery？</string>
