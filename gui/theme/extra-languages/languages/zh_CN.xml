@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <language>
-	<display>Simplified Chinese</display>
+	<display>Chinese (Simplified)</display>
 
 	<resources>
 		<!-- Font overrides - only change these if your language requires special characters -->
@@ -60,7 +60,7 @@
 		<string name="files_btn">文件</string>
 		<string name="copy_log_btn">导出日志</string>
 		<string name="select_type_hdr">选择类型</string>
-		<string name="install_zip_hdr">安装Zip包</string>
+		<string name="install_zip_hdr">安装Zip刷机包</string>
 		<string name="install_zip_btn">安装Zip包</string>
 		<string name="install_image_hdr">刷入Image镜像</string>
 		<string name="install_image_btn">刷入镜像</string>
@@ -121,7 +121,7 @@
 		<string name="factory_reset_hdr">恢复出厂设置(双清)</string>
 		<string name="factory_reset_btn">恢复出厂</string>
 		<string name="factory_reset1">这将会清空Data，Cache分区和Dalvik缓存</string>
-		<string name="factory_reset2">(不会清除内置存储/sdcard)</string>
+		<string name="factory_reset2">（不会清除内置存储/sdcard）</string>
 		<string name="factory_reset3">在大多数情况下，您只需要</string>
 		<string name="factory_reset4">执行此操作即可。</string>
 		<string name="factory_resetting">正在恢复出厂设置…</string>
@@ -412,7 +412,7 @@
 		<string name="fm_type_folder">文件夹</string>
 		<string name="fm_type_file">文件</string>
 		<string name="fm_choose_act">选择操作</string>
-		<string name="fm_selected">%tw_fm_type%已选择：</string>
+		<string name="fm_selected">已选%tw_fm_type%路径：</string>
 		<string name="fm_copy_btn">复制</string>
 		<string name="fm_copy_file_btn">复制文件</string>
 		<string name="fm_copy_folder_btn">复制文件夹</string>
@@ -452,7 +452,7 @@
 		<string name="sideload_confirm">ADB Sideload</string>
 		<string name="sideload_usage">使用方式：电脑CMD输入adb sideload xxxx(刷机包名).zip</string>
 		<string name="sideload_complete">ADB Sideload完成。</string>
-		<string name="fix_contexts_hdr">修复SELinux</string>
+		<string name="fix_contexts_hdr">修复上下文</string>
 		<string name="fix_contexts_note1">注意：很少情况下需要修复SELinux上下文。</string>
 		<string name="fix_contexts_note2">修复SELinux上下文可能会导致</string>
 		<string name="fix_contexts_note3">您的设备无法正常启动。</string>
@@ -486,8 +486,8 @@
 		<string name="md5_created"> * MD5已生成。</string>
 		<string name="md5_error"> * MD5错误！</string>
 		<string name="md5_compute_error"> * 计算MD5错误。</string>
-		<string name="current_date">(Current Date)</string>
-		<string name="auto_generate">(Auto Generate)</string>
+		<string name="current_date">（当前日期）</string>
+		<string name="auto_generate">（自动生成）</string>
 		<string name="unable_to_locate_partition">未找到'{1}'分区。</string>
 		<string name="no_partition_selected">未选择备份分区。</string>
 		<string name="total_partitions_backup"> * 备份分区总数：{1}</string>
@@ -503,7 +503,7 @@
 		<string name="total_backed_size">[总计备份 {1}MB]</string>
 		<string name="backup_completed">[备份已完成，耗时{1}秒。]</string>
 		<string name="restore_started">[已开始恢复]</string>
-		<string name="restore_folder">恢复文件夹：'{1}'</string>
+		<string name="restore_folder">备份包目录：'{1}'</string>
 		<!-- {1} is the partition display name and {2} is the number of seconds -->
 		<string name="restort_part_done">[{1}恢复完成({2}秒)]</string>
 		<string name="verifying_md5">正在校验MD5</string>
@@ -578,14 +578,13 @@
 		<string name="unable_to_wipe">无法清除{1}。</string>
 		<string name="cannot_wipe">无法清除{1}分区。</string>
 		<string name="remove_all">移除'{1}'下所有文件</string>
-		<string name="wiping_data">正在清除data，跳过清除/data/media…</string>
+		<string name="wiping_data">正在清除data，跳过/data/media…</string>
 		<string name="backing_up">正在备份{1}…</string>
 		<string name="backing">正在备份</string>
 		<string name="backup_size">'{1}'备份文件大小为0字节。</string>
 		<string name="datamedia_fs_restore">警告：此/data备份文件系统为{1}！除非把文件系统格式设置为{1}否则可能无法启动。</string>
 		<string name="restoring">正在恢复{1}…</string>
 		<string name="restoring_hdr">正在恢复</string>
-		<string name="restore_ors">正在恢复备份</string>
 		<string name="recreate_folder_err">无法重新创建{1}文件夹。</string>
 		<string name="img_size_err">镜像文件大小大于目标设备</string>
 		<string name="flashing">正在刷入{1}…</string>
@@ -611,7 +610,6 @@
 		<string name="injecttwrp">正在注入TWRP到boot镜像…</string>
 		<string name="zip_err">安装zip刷机包'{1}'时出错</string>
 		<string name="installing_zip">正在安装zip刷机包'{1}'</string>
-		<string name="installing_zip_ors">正在安装zip刷机包</string>
 		<string name="select_backup_opt">设置备份选项：</string>
 		<string name="compression_on">压缩选项已开启</string>
 		<string name="md5_off">MD5生成已关闭</string>
@@ -620,7 +618,7 @@
 		<string name="running_recovery_commands">运行Recovery命令</string>
 		<string name="recovery_commands_complete">Recovery命令执行完成。</string>
 		<string name="running_ors">运行OpenRecoveryScript脚本</string>
-		<string name="ors_complete">运行OpenRecoveryScript脚本完成</string>
+		<string name="ors_complete">OpenRecoveryScript脚本运行完成</string>
 		<string name="no_updater_binary">刷机包中未找到'{1}'。</string>
 		<string name="check_for_md5">正在检测MD5文件…</string>
 		<string name="fail_sysmap">映射文件'{1}'失败</string>
@@ -645,7 +643,7 @@
 		<!-- These 2 items are saved in the data manager instead of resource manager, so %llu, etc is correct instead of {1} -->
 		<string name="file_progress">已完成%llu个，共%llu个文件，进度%i%%</string>
 		<string name="size_progress">已完成%lluMB，共%lluMB，进度%i%%</string>
-		<string name="decrypt_cmd">尝试通过命令行解密data分区。</string>
+		<string name="decrypt_cmd">尝试通过命令行解密Data分区。</string>
 		<string name="base_pkg_err">无法加载基本包。</string>
 		<string name="simulating">正在模拟操作…</string>
 		<string name="backup_cancel">备份已取消。</string>
@@ -659,8 +657,8 @@
 		<string name="zip_wipe_cache">一个或多个刷机包请求清除cache -- 正在清除cache。</string>
 		<string name="and_sec_wipe_err">无法清除android secure</string>
 		<string name="dalvik_wipe_err">清除dalvik失败</string>
-		<string name="auto_gen">(Auto Generate)</string>
-		<string name="curr_date">(Current Date)</string>
+		<string name="auto_gen">（自动生成）</string>
+		<string name="curr_date">（当前日期）</string>
 		<string name="backup_name_len">备份名称太长。</string>
 		<string name="backup_name_invalid">备份名称'{1}'中包含无效字符：'{1}'</string>
 		<string name="no_real_sdcard">此设备没有真实的SD卡！正在中止！</string>
